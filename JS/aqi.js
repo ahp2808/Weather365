@@ -19,7 +19,7 @@ const getCityCoord = (c) => {
 };
     
 const getAirDetails = (c) => {  
-const AirAPI = "http://api.openweathermap.org/data/2.5/air_pollution?lat="+lat+"&lon="+lon;
+const AirAPI = "https://api.openweathermap.org/data/2.5/air_pollution?lat="+lat+"&lon="+lon;
   fetch(AirAPI + API_Key)
     .then((response) => response.json())
     .then((response) => {
