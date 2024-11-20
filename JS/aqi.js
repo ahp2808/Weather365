@@ -1,4 +1,4 @@
-const GeoCode = "http://api.openweathermap.org/geo/1.0/direct?q=";
+const GeoCode = "https://api.openweathermap.org/geo/1.0/direct?q=";
 const API_Key = "&appid=92b787a46f030c1ca9f7afe522c408a4";
 let c = inp1;
 var lat,lon;
